@@ -1,0 +1,10 @@
+MAIL FROM: <jeffay@cs.unc.edu>
+Sender ok
+MAIL FROM:<jeffay@cs.unc.edu>
+Sender ok
+MAIL FROM: <jeffay@cs.unc.edu>
+Sender ok
+MAIL FROM: <jeffay @cs.unc.edu>
+ERROR -- mailbox
+MAIL FROM: <jeffay@cs.unc.edu >
+ERROR -- path
