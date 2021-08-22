@@ -23,6 +23,6 @@ When your program is working as expected, outputDiff.txt will be empty.  Otherwi
 ---
 > ERROR -- domain
 ```
-The "8c8" signifies the line number of difference (8).  The line directly underneath shows "< ERROR -- mailbox", which signifies that the leftmost compared file (as entered in the command line; expectedExampleOutputs.txt in our case) produced "ERROR -- mailbox" on line 8.  The line below that, showing "> ERROR -- local part", means the rightmost compared file produced this output instead.  
+The "8c8" signifies the line number of difference (8).  The line directly underneath shows "< ERROR -- mailbox", which signifies that the leftmost compared file (as entered in the command line; expectedExampleOutputs.txt in our case) produced "ERROR -- mailbox" on line 8.  The line below that, showing "> ERROR -- local part", means the rightmost compared file produced "ERROR -- local part" instead.  
   
-Use these sample inputs and outputs as a starting point.  We will test you on many more permutations than the five given!
+Use these sample inputs and outputs as a starting point.  We will test you on many more permutations than the five given.  And don't forget about the newline characters!
