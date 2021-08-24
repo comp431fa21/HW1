@@ -1,4 +1,7 @@
 # HW1 
+
+** Please let the TAs know on Piazza if something is unclear or amiss in this repo! **
+
 ## Developing in Python
 If you are new to Python, do not despair!  Picking up a new programming language is not as hard as the first time.  Be sure to look for some tutorials online.  [Python's official website](https://wiki.python.org/moin/BeginnersGuide/NonProgrammers) has lots of links to good resources under the "Interactive Courses" header.
 
