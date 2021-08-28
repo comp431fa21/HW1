@@ -13,7 +13,7 @@ In order to connect to the course server, you must either be connected on campus
 ## Testing Your Code
 Once you are ready to more rigorously test your parser, clone or otherwise download exmapleInputs.txt and exampleExpectedOutputs.txt from this repo into your HW1 folder.  The input file has the five example inputs given in the assignment instructions; the output file has the corresponding outputs.
 
-To test your program with the inputs and compare your results with the expected outputs, first open your terminal and enter ```python3 parser.py < exampleInputs.txt > myOutputs.txt```.  Next, enter ```expectedExampleOutputs.txt diff myOutputs.txt > outputDiff.txt```.  The first command feeds the input file into your parser and saves the results in a file named "myOutputs.txt".  The second command compares your actual outputs with the expected outputs and saves the difference in a file named "outputDiff.txt".
+To test your program with the inputs and compare your results with the expected outputs, first open your terminal and enter ```python3 parser.py < exampleInputs.txt > myOutputs.txt```.  Next, enter ```diff expectedExampleOutputs.txt myOutputs.txt > outputDiff.txt```.  The first command feeds the input file into your parser and saves the results in a file named "myOutputs.txt".  The second command compares your actual outputs with the expected outputs and saves the difference in a file named "outputDiff.txt".
   
 When your program is working as expected, outputDiff.txt will be empty.  Otherwise, every line where the two files differ will be annotated.  For example, you may see something like this in outputDiff.txt:
   ```
